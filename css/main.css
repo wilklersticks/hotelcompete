@@ -1,9 +1,6 @@
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+@import "./font-awesome.min.css";
 @import "./global.css";
 @import "./navbar.css";
 @import "./body.css";
 @import "./footer.css";
-
-@font-face {
-	font-family: 'Open Sans', sans-serif;
-}

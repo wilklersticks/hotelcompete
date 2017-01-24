@@ -1,0 +1,12 @@
+.navbar {
+  min-height: 100px;
+}
+
+#myNavbar {
+  min-height: 100px;
+}
+
+.navbar-right {
+  min-height: 100px;
+  vertical-align: middle;
+}

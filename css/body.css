@@ -1,12 +1,16 @@
-h1,.h1,h2,.h2,h3,.h3,p,.p {
-	margin: 0 0 0;
+body {
+	background-image: url("../img/hero.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	background-color: #f3f3f3;
+	background-size: cover;
 }
 
 .unique {
 	text-align: center;
 	margin: 0 0;
 	padding: 90px 150px;
-	background-image: hero.png;
 }
 
 .whatwho {
@@ -14,7 +18,7 @@ h1,.h1,h2,.h2,h3,.h3,p,.p {
 	text-align: center;
 	margin: 0 0;
 	padding: 90px 150px;
-    background: #43bdcf; /* For browsers that do not support gradients */    
+    background: #43bdcf; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left, #1d5860 , #43bdcf); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #1d5860, #43bdcf); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #1d5860, #43bdcf); /* For Firefox 3.6 to 15 */
@@ -25,7 +29,11 @@ h1,.h1,h2,.h2,h3,.h3,p,.p {
 	text-align: center;
 	margin: 0 0;
 	padding: 90px 150px;
-	background-color: #fff;
+	background-color: #f3f3f3;
+}
+
+.explaination h2,.h2 {
+	color: #4a4a4a;
 }
 
 .rightprod {
@@ -33,11 +41,11 @@ h1,.h1,h2,.h2,h3,.h3,p,.p {
 	text-align: center;
 	margin: 0 0;
 	padding: 90px 150px;
-    background: #43bdcf; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left, #1d5860 , #43bdcf); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #1d5860, #43bdcf); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #1d5860, #43bdcf); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #1d5860 , #43bdcf); /* Standard syntax (must be last) */
+  background: #43bdcf; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #1d5860 , #43bdcf); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #1d5860, #43bdcf); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #1d5860, #43bdcf); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #1d5860 , #43bdcf); /* Standard syntax (must be last) */
 }
 
 .clients {
@@ -45,7 +53,7 @@ h1,.h1,h2,.h2,h3,.h3,p,.p {
 	text-align: center;
 	margin: 0 0 0;
 	padding: 90px 150px;
-	background: #1d5860; /* For browsers that do not support gradients */    
+	background: #1d5860;
 }
 
 .contactus {
@@ -53,4 +61,16 @@ h1,.h1,h2,.h2,h3,.h3,p,.p {
 	margin: 0 0;
 	padding: 90px 150px;
 	background-color: #fff;
+}
+
+.contactus h2,.h2 {
+	color: #4a4a4a;
+}
+
+.fa {
+	color: #4a4a4a;
+}
+
+.container-fluid img {
+	max-width: 100%;
 }
