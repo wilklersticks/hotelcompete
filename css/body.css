@@ -19,10 +19,15 @@ body {
 	margin: 0 0;
 	padding: 90px 150px;
     background: #43bdcf; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left, #1d5860 , #43bdcf); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #1d5860, #43bdcf); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #1d5860, #43bdcf); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #1d5860 , #43bdcf); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(left, #43bdcf , #1d5860); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #43bdcf, #1d5860); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #43bdcf, #1d5860); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(to right, #43bdcf , #1d5860); /* Standard syntax (must be last) */
+}
+.whatwho p {
+	color: #4a4a4a;
+	font-size: 1em;
+	font-weight: 400;
 }
 
 .explaination {
@@ -47,6 +52,13 @@ body {
   background: -moz-linear-gradient(right, #1d5860, #43bdcf); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #1d5860 , #43bdcf); /* Standard syntax (must be last) */
 }
+
+.rightprod p {
+	color: #4a4a4a;
+	font-size: 1em;
+	font-weight: 400;
+}
+
 
 .clients {
 	color: #fff;
@@ -73,4 +85,18 @@ body {
 
 .container-fluid img {
 	max-width: 100%;
+}
+
+.grad {
+  background: #43bdcf; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #1d5860 , #43bdcf); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #1d5860, #43bdcf); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #1d5860, #43bdcf); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #1d5860 , #43bdcf); /* Standard syntax (must be last) */
+}
+
+.nograd {
+	background-color: #fff;
+	color: #1d5860;
+	font-weight: 600;
 }

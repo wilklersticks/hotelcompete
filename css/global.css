@@ -13,10 +13,14 @@ h2,.h2 {
 
 h3,.h3 {
 	color: #acacac;
+}
+
+p {
+	color: #4a4a4a;
 	font-weight: 400;
 }
-\
-p {
-	color: #a4a4a4;
-	font-weight: 400;
+
+.noradius {
+	border-radius: 0px;
+	border: 0px solid transparent;
 }

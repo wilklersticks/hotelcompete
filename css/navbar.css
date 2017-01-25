@@ -10,3 +10,10 @@
   min-height: 100px;
   vertical-align: middle;
 }
+
+.navbutton {
+	border: 2px solid #43bdcf;
+	background-color: #fff;
+	color: #43bdcf;
+	font-weight: bold;
+}
