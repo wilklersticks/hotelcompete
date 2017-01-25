@@ -1,8 +1,23 @@
 .footer {
-	text-align: center;
 	margin: 0 0 0;
 	padding: 90px 150px;
-	background-color: #acacac;
+	background-color: #f3f3f3;
 	font-weight: 400;
 	color: #4a4a4a;
+  font-size: .5em;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+  clear: both;
+}
+
+p {
+  margin: 0;
+}
+
+.bluelight {
+  color: #43bdcf;
+  font-weight: 600;
 }
