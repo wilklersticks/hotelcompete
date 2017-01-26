@@ -7,32 +7,46 @@ body {
 	background-size: cover;
 }
 
+.fa-10x {
+  font-size: 10em;
+}
+
 .unique {
 	text-align: center;
 	margin: 0 0;
-	padding: 90px 30px;
+	padding: 100px 30px;
 }
 
 .whatwho {
 	color: #fff;
 	text-align: center;
 	margin: 0 0;
-	padding: 90px 30px;
+	padding: 100px 30px;
   background: #4CC5D7; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #4CC5D7 , #43bdcf); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #4CC5D7, #43bdcf); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #4CC5D7, #43bdcf); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(60deg, #4CC5D7, #4CC5D7 56%, #43bdcf 55%); /* Standard syntax (must be last) */
+  background: linear-gradient(60deg, #4CC5D7, #4CC5D7 55%, #43bdcf 56%); /* Standard syntax (must be last) */
 }
+
 .whatwho p {
 	color: #4a4a4a;
 	font-weight: 400;
+  padding: 0 40px;
+}
+
+.whatwho h2 {
+  padding-bottom: 60px;
+}
+
+.whatwho h4 {
+  color: #fff;
 }
 
 .explaination {
 	text-align: center;
 	margin: 0 0;
-	padding: 90px 30px;
+	padding: 100px 30px;
 	background-color: #f3f3f3;
 }
 
@@ -44,17 +58,26 @@ body {
 	color: #fff;
 	text-align: center;
 	margin: 0 0;
-	padding: 90px 30px;
-  background: #43bdcf; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #43bdcf , #4CC5D7); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #43bdcf, #4CC5D7); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #43bdcf, #4CC5D7); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(60deg, #43bdcf, #43bdcf 45%, #4CC5D7 46%); /* Standard syntax (must be last) */
+	padding: 100px 30px;
+  background: #4CC5D7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #4CC5D7 , #43bdcf); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #4CC5D7, #43bdcf); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #4CC5D7, #43bdcf); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(300deg, #4CC5D7, #4CC5D7 55%, #43bdcf 56%); /* Standard syntax (must be last) */
 }
 
 .rightprod p {
-	color: #4a4a4a;
-	font-weight: 400;
+  color: #4a4a4a;
+  font-weight: 400;
+  padding: 0 40px;
+}
+
+.rightprod h2 {
+  padding-bottom: 60px;
+}
+
+.rightprod h4 {
+  color: #fff;
 }
 
 
@@ -62,19 +85,32 @@ body {
 	color: #fff;
 	text-align: center;
 	margin: 0 0 0;
-	padding: 90px 30px;
+	padding: 100px 30px;
 	background: #1d5860;
+}
+
+.clients h2 {
+  padding-bottom: 60px;
 }
 
 .contactus {
 	text-align: center;
 	margin: 0 0;
-	padding: 90px 30px;
+	padding: 100px 30px;
 	background-color: #fff;
 }
 
 .contactus h2,.h2 {
 	color: #4a4a4a;
+}
+
+.contactus h4, .h4 {
+  padding-top: 25px;
+}
+
+.contactus i {
+  font-size: 1.5em;
+  color: #1d5860;
 }
 
 .fa {
@@ -97,4 +133,10 @@ body {
 	background-color: #fff;
 	color: #1d5860;
 	font-weight: 600;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 10px 50px;
+  font-size: 18px;
 }
