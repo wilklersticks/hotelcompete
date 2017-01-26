@@ -3,21 +3,21 @@ body {
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment: fixed;
-	background-color: #f3f3f3;
+	background-color: #fff;
 	background-size: cover;
 }
 
 .unique {
 	text-align: center;
 	margin: 0 0;
-	padding: 90px 150px;
+	padding: 90px 30px;
 }
 
 .whatwho {
 	color: #fff;
 	text-align: center;
 	margin: 0 0;
-	padding: 90px 150px;
+	padding: 90px 30px;
   background: #4CC5D7; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #4CC5D7 , #43bdcf); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #4CC5D7, #43bdcf); /* For Opera 11.1 to 12.0 */
@@ -32,7 +32,7 @@ body {
 .explaination {
 	text-align: center;
 	margin: 0 0;
-	padding: 90px 150px;
+	padding: 90px 30px;
 	background-color: #f3f3f3;
 }
 
@@ -44,7 +44,7 @@ body {
 	color: #fff;
 	text-align: center;
 	margin: 0 0;
-	padding: 90px 150px;
+	padding: 90px 30px;
   background: #43bdcf; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #43bdcf , #4CC5D7); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #43bdcf, #4CC5D7); /* For Opera 11.1 to 12.0 */
@@ -62,14 +62,14 @@ body {
 	color: #fff;
 	text-align: center;
 	margin: 0 0 0;
-	padding: 90px 150px;
+	padding: 90px 30px;
 	background: #1d5860;
 }
 
 .contactus {
 	text-align: center;
 	margin: 0 0;
-	padding: 90px 150px;
+	padding: 90px 30px;
 	background-color: #fff;
 }
 

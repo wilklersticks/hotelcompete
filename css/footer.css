@@ -1,23 +1,44 @@
 .footer {
 	margin: 0 0 0;
-	padding: 90px 150px;
+	padding: 90px 30px;
 	background-color: #f3f3f3;
 	font-weight: 400;
 	color: #4a4a4a;
   font-size: .5em;
 }
 
-img {
+.footer img {
   float: left;
   margin-right: 10px;
   clear: both;
 }
 
-p {
+.footer p {
   margin: 0;
+}
+
+.footer a {
+  color: #5FC5D4;
 }
 
 .bluelight {
   color: #43bdcf;
   font-weight: 600;
+}
+
+footer .grouping {
+  padding-bottom: 15px;
+}
+
+.horizline {
+  border-top: 1px solid #888;
+}
+
+footer .fa {
+  color: #43BDCF;
+    padding: 0 3px;
+}
+
+footer .address {
+  margin: 0;
 }
