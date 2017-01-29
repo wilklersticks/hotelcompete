@@ -1,6 +1,6 @@
 .footer {
 	margin: 0 0 0;
-	padding: 90px 30px;
+	padding: 40px 30px 60px;
 	background-color: #f3f3f3;
 	font-weight: 400;
 	color: #4a4a4a;
@@ -13,11 +13,12 @@
   clear: both;
 }
 
-.footer p {
+footer p {
   margin: 0;
+  color: #4a4a4a;
 }
 
-.footer a {
+footer a {
   color: #5FC5D4;
 }
 
@@ -31,14 +32,28 @@ footer .grouping {
 }
 
 .horizline {
-  border-top: 1px solid #888;
+  border-top: 2px solid #E0E0E0;
 }
 
-footer .fa {
+footer .fa-facebook-square,.fa-linkedin-square,.fa-chevron-right {
   color: #43BDCF;
-    padding: 0 3px;
+  padding: 0 3px;
 }
 
 footer .address {
   margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.legal {
+  line-height: 32px;
+}
+
+@media (max-width: 768px) {
+  p {
+    text-align: center;
+  }
 }

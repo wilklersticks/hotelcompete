@@ -10,24 +10,28 @@
   #myNavbar {
     min-height: 100px;
   }
-}*/
+  }*/
 
-.navbar-right {
-  margin-top: 25px;
-}
+  .navbar-right {
+    margin-top: 25px;
+  }
 
-.container-fluid {
-  padding: 0;
-}
+  .container-fluid {
+    padding: 0;
+  }
 
-.navbutton.btn {
- border: 2px solid #43bdcf;
- background-color: #fff;
- color: #43bdcf;
- font-weight: bold;
- font-size: 14px;
- margin: 7px 30px 0 15px;
- padding: 6px 15px;
+  .navbutton.btn {
+   border: 2px solid #43bdcf;
+   background-color: #fff;
+   color: #43bdcf;
+   font-weight: bold;
+   font-size: 14px;
+   margin: 7px 30px 20px 15px;
+   padding: 6px 15px;
+ }
+
+ .navbutton.btn:hover {
+  border: 2px solid #1b5860;
 }
 
 .img-responsive {
@@ -42,9 +46,11 @@
 
 .nav li a {
   font-size: 14px;
+  font-weight: 700;
 }
 
 .navbar-brand {
-  display: flex;
-  align-items: center;
+  max-width: 100%;
+  height: auto;
+  margin-top: -10px;
 }
