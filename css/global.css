@@ -37,7 +37,6 @@ h4,.h4 {
 }
 
 p {
-	color: #1d5860;
 	font-weight: 400;
   font-size: 1em;
 }
@@ -51,6 +50,11 @@ a:hover, a:visited, a:link, a:active {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 @media (max-width: 910px) {
     h1,.h1 {
       font-size: 160%;
@@ -61,7 +65,7 @@ a:hover, a:visited, a:link, a:active {
     h3,.h3 {
       font-size: 140%;
     }
-    button.btn {
+    body button.btn {
       font-size: 100%;
     }
     .navbar-header {

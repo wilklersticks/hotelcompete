@@ -7,17 +7,17 @@ body {
 	background-size: cover;
 }
 
-.fa-10x {
+body .fa-10x {
   font-size: 10em;
 }
 
-.unique {
+body .unique {
 	text-align: center;
 	margin: 0 0;
 	padding: 100px 30px;
 }
 
-.whatwho {
+body .whatwho {
 	color: #fff;
 	text-align: center;
 	margin: 0 0;
@@ -26,42 +26,47 @@ body {
   background: -webkit-linear-gradient(left, #43bdcf , #4CC5D7); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #43bdcf, #4CC5D7); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #43bdcf, #4CC5D7); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(300deg, #43bdcf, #43bdcf 45%, #4CC5D7 46%); /* Standard syntax (must be last) */
+  background: linear-gradient(300deg, #43bdcf, #43bdcf 45%, #4CC5D7 45%); /* Standard syntax (must be last) */
 }
 
-.col-sm-3 {
+body .col-sm-3 {
   padding: 0;
 }
 
-.whatwho p {
+body .whatwho p {
 	font-weight: 400;
   padding: 0 15px;
+  color: #1d5860;
 }
 
-.whatwho h2 {
+body .whatwho h2 {
   padding-bottom: 60px;
 }
 
-.whatwho h4 {
+body .whatwho h4 {
   color: #fff;
 }
 
-.explaination {
+body .whatwho i {
+  color: #1d5860;
+}
+
+body .explaination {
 	text-align: center;
 	margin: 0 0;
 	padding: 100px 30px;
 	background-color: #f3f3f3;
 }
 
-.explaination h2,.h2 {
+body .explaination h2,.h2 {
 	color: #4a4a4a;
 }
 
-.explaination h3,.h3 {
+body .explaination h3,.h3 {
   margin: 20px 15% 45px;
 }
 
-.rightprod {
+body .rightprod {
 	color: #fff;
 	text-align: center;
 	margin: 0 0;
@@ -70,67 +75,79 @@ body {
   background: -webkit-linear-gradient(left, #4CC5D7 , #43bdcf); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #4CC5D7, #43bdcf); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #4CC5D7, #43bdcf); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(300deg, #4CC5D7, #4CC5D7 55%, #43bdcf 56%); /* Standard syntax (must be last) */
+  background: linear-gradient(300deg, #4CC5D7, #4CC5D7 55%, #43bdcf 55%); /* Standard syntax (must be last) */
 }
 
-.rightprod p {
+body .rightprod p {
   font-weight: 400;
   padding: 0 40px;
 }
 
-.rightprod h2 {
+body .rightprod h2 {
   padding-bottom: 60px;
   margin: 0 10%;
 }
 
-.rightprod h4 {
+body .rightprod h4 {
   color: #fff;
 }
 
-.clients {
+body .rightprod a {
+  color: #1d5860;
+}
+
+body .rightprod a:hover {
+  color: #fff;
+}
+
+body .rightprod i {
+  color: #1d5860;
+}
+
+body .clients {
 	color: #fff;
 	text-align: center;
 	margin: 0 0 0;
-	padding: 100px 30px;
+	padding: 100px 150px;
 	background: #1d5860;
 }
 
-.clients h2 {
+body .clients h2 {
   padding-bottom: 60px;
 }
 
-.contactus {
+body .contactus {
 	text-align: center;
 	margin: 0 0;
 	padding: 100px 30px;
 	background-color: #fff;
 }
 
-.contactus h2,.h2 {
+body .contactus h2,.h2 {
 	color: #4a4a4a;
   line-height: 43px;
   margin: 0 15%;
 }
 
-.contactus h4, .h4 {
+body .contactus h4, .h4 {
   padding-top: 25px;
   font-weight: 700;
 }
 
-.contactus i {
+body .contactus.fa-chevron-right{
   font-size: 1.5em;
   color: #1d5860;
 }
 
-.fa {
-	color: #1d5860;
+body .contactus h4:hover {
+  color: #43bdcf;
 }
 
-.container-fluid img {
+body .container-fluid img {
 	max-width: 100%;
 }
 
-.grad {
+body .grad {
   background: #43bdcf;
   background: -webkit-linear-gradient(left, #1d5860 , #43bdcf);
   background: -o-linear-gradient(right, #1d5860, #43bdcf);
@@ -141,49 +158,49 @@ body {
   }
 }
 
-.nograd {
+body .nograd {
 	background-color: #fff;
 	color: #1d5860;
 	font-weight: 600;
 }
 
-.btn {
+body .btn {
   margin-top: 30px;
   padding: 10px 50px;
   font-size: 18px;
   font-weight: 700;
 }
 
-.btn:hover {
+body .btn:hover {
   background: #1b5860;
   color: #fff;
 }
 
 
 @media (max-width: 910px) {
-  h2 ,.whatwho h2, .rightprod h2, .clients h2 {
+  body h2 ,.whatwho h2, .rightprod h2, .clients h2 {
     padding-bottom: 10px;
   }
   
-  .contactus h2, .explaination h3, .rightprod h2 {
+  body .contactus h2, .explaination h3, .rightprod h2 {
     line-height: 24px;
   }
 
-  .col-sm-12 {
+  body .col-sm-12 {
     padding: 35px 10%;
     max-width: 100%;
   }
 
-  .whatwho.col-sm-12,.col-sm-12.mobile {
+  body .whatwho.col-sm-12,.col-sm-12.mobile {
     padding-left: 0;
     padding-right: 0;
   }
 
-  .btn {
+  body .btn {
     margin-top: 0px;
   }
 
-  button {
+  body button {
     max-width: 100%;
   }
 }

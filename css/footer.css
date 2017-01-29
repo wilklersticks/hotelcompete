@@ -1,28 +1,30 @@
-.footer {
+footer .footer {
 	margin: 0 0 0;
-	padding: 40px 30px 60px;
+	padding: 40px 150px 60px;
 	background-color: #f3f3f3;
 	font-weight: 400;
 	color: #4a4a4a;
   font-size: .5em;
 }
 
-.footer img {
-  float: left;
-  margin-right: 10px;
-  clear: both;
-}
-
 footer p {
   margin: 0;
-  color: #4a4a4a;
+  color: #4A4A4A;
 }
 
 footer a {
-  color: #5FC5D4;
+  color: #43BDCF;
 }
 
-.bluelight {
+footer a p:hover {
+  color: #43BDCF;
+}
+
+footer p a:hover {
+  color: #1d5860;
+}
+
+footer h5 {
   color: #43bdcf;
   font-weight: 600;
 }
@@ -31,29 +33,55 @@ footer .grouping {
   padding-bottom: 15px;
 }
 
-.horizline {
+footer .horizline {
   border-top: 2px solid #E0E0E0;
 }
 
-footer .fa-facebook-square,.fa-linkedin-square,.fa-chevron-right {
-  color: #43BDCF;
+footer .fa-chevron-right, footer .fa-facebook-square, footer .fa-linkedin-square {
+  color: #43bdcf;
+}
+
+i {
   padding: 0 3px;
+  margin-top: -2px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .fa-facebook-square:hover, footer .fa-linkedin-square:hover {
+  color: #1d5860;
 }
 
 footer .address {
   margin: 0;
 }
 
-.bold {
+footer .bold {
   font-weight: 700;
 }
 
-.legal {
+footer .legal {
   line-height: 32px;
 }
 
+footer img.pull-left {
+  padding-right: 10px;
+}
+
 @media (max-width: 768px) {
-  p {
+  p,h5 {
     text-align: center;
+  }
+  .media p {
+    text-align: left;
+  }
+  .media {
+    padding-left: 10%;
+  }
+  footer .footer {
+    padding: 40px 30px 60px;
+  }
+  .footer .col-sm-12 {
+    padding: 0 15px;
   }
 }

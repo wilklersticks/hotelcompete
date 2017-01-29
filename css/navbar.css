@@ -1,56 +1,56 @@
-.navbar {
+nav .navbar {
   min-height: 100px;
 }
 
-.navbar-header {
+nav .navbar-header {
   margin-top: 20px;
 }
 
-/*@media (max-width: 880px) { 
-  #myNavbar {
-    min-height: 100px;
-  }
-  }*/
+nav .navbar-right {
+  margin-top: 25px;
+}
 
-  .navbar-right {
-    margin-top: 25px;
-  }
+nav .container-fluid {
+  padding: 0;
+}
 
-  .container-fluid {
-    padding: 0;
-  }
+nav .navbutton.btn {
+ border: 2px solid #43bdcf;
+ background-color: #fff;
+ color: #43bdcf;
+ font-weight: bold;
+ font-size: 14px;
+ margin: 7px 30px 20px 15px;
+ padding: 6px 15px;
+}
 
-  .navbutton.btn {
-   border: 2px solid #43bdcf;
-   background-color: #fff;
-   color: #43bdcf;
-   font-weight: bold;
-   font-size: 14px;
-   margin: 7px 30px 20px 15px;
-   padding: 6px 15px;
- }
-
- .navbutton.btn:hover {
+nav .navbutton.btn:hover {
   border: 2px solid #1b5860;
 }
 
-.img-responsive {
-  height: 35px;
+nav .img-responsive {
+  max-height: 35px;
 }
 
-.navbar {
+nav .navbar {
   background: #fff;
   padding: 0 15px;
   margin-bottom: 0px;
 }
 
-.nav li a {
+nav .nav li a {
   font-size: 14px;
   font-weight: 700;
 }
 
-.navbar-brand {
-  max-width: 100%;
-  height: auto;
+nav .navbar-brand {
+  height: 70px;
+  padding-right: 0px;
   margin-top: -10px;
+}
+
+@media (max-width: 420px) {
+  .navbar-brand {
+    max-width: 70%;
+  }
 }
